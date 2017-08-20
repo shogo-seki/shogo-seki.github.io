@@ -1,7 +1,6 @@
 html {
 	font-family: sans-serif;
 	font-size: 0.625em;
-	background-color: #eeeeee;
 }
 
 body {
@@ -49,8 +48,8 @@ a.silent {
 h1 {
 	font-size: 4.0rem;
 	font-weight: 400;
-	line-height: 1.2;
-	margin: 20px 0 20px 0;
+	line-height: 1.4;
+	margin: 16px 0 16px 0;
 	padding: 0;
 }
 
@@ -140,6 +139,10 @@ img.teaser {
 	padding: 0 0 0 10px;
 }
 
+.info.no-image {
+  padding: 0;
+}
+
 .info > .title {
 	font-size: 1.8rem;
 	font-weight: 400;
@@ -149,4 +152,8 @@ img.teaser {
     content:" ";
     display:block;
     clear:both;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
