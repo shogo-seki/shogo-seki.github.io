@@ -49,8 +49,15 @@ h1 {
 	font-size: 4.0rem;
 	font-weight: 400;
 	line-height: 1.4;
-	margin: 16px 0 16px 0;
 	padding: 0;
+  margin: 16px 0;
+}
+
+#switch-lang {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-left: 32px;
 }
 
 h2 {
@@ -80,7 +87,7 @@ p {
 }
 
 p.full {
-	padding: 0 4px;
+	padding: 0;
 }
 
 hr {
